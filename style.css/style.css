@@ -37,7 +37,8 @@ header{
     /* background-color: aquamarine; */
     padding: 0.5rem;
     background-image: url(../img/jumbo.png);
-
+    background-position: center;
+    background-size: cover;
 }
 
 .button{
@@ -79,7 +80,7 @@ h2{
 
 .big-column {
     display: flex;
-    justify-content:end;
+    justify-content:center;
     margin-bottom: 1rem;
     margin-top: 1rem;
     color: #222;
@@ -98,7 +99,6 @@ h2{
     display: flex;
     justify-content: space-around;
     background-color: antiquewhite;
-    flex-direction: column;
 }
 
 .container3{
