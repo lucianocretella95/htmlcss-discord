@@ -79,19 +79,16 @@ h2{
 
 .big-column {
     display: flex;
-    background-color:pink;
-    width: 15rem;
-    height: 15rem;
+    justify-content:end;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    color: #222;
 }
 
 
 .small-column {
     display: flex;
-    background-color: cornflowerblue;
-    width: 20rem;
-    height: 25rem;
+    justify-content: start;
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
@@ -99,8 +96,9 @@ h2{
 
 .container2{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: antiquewhite;
+    flex-direction: column;
 }
 
 .container3{
