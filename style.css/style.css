@@ -49,6 +49,22 @@ header{
     border-radius: 3rem;
 }
 
+.mac{
+    background: white;
+    padding: 1rem;
+    color:black;
+    border: none;
+    border-radius: 3rem;
+}
+
+.browser{
+    background: #222;
+    padding: 1rem;
+    color:whitesmoke;
+    border: none;
+    border-radius: 3rem;
+}
+
 
 .container{
     /* background-color: blue; */
@@ -75,12 +91,15 @@ header{
 
 h2{
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 
 .big-column {
-    display: flex;
-    justify-content:center;
+    /* display: flex;
+    justify-content:center; */
+    padding: 2rem;
+    text-align: center;
     margin-bottom: 1rem;
     margin-top: 1rem;
     color: #222;
@@ -88,8 +107,8 @@ h2{
 
 
 .small-column {
-    display: flex;
-    justify-content: start;
+    /* display: flex;
+    justify-content: start; */
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
@@ -104,7 +123,8 @@ h2{
 .container3{
     display: flex;
     justify-content: center;
-    background-color:grey;
+    background-color:antiquewhite;
+    color: black;
 }
 
 .container4{
@@ -115,18 +135,28 @@ h2{
 
 .c5{
     display: flex;
-    justify-content: center;
-    background-color:grey;
+    flex-direction: column;
+    background-color: antiquewhite;
+    align-items: center;
+    color: black;
 }
 
-.verde{
-    width: 15rem;
-    height: 15rem;
-    background-color: green;
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.sfondo{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-size: cover;
+    font-size: large;
+    margin-bottom: 2rem;
+}
+
+.mac2{
+    border-radius: 3rem;
+    background-color: darkslategrey;
+    color: antiquewhite;
+    padding: 1rem;
+    border: none;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 
