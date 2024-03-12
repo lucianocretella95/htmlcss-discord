@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #222;
+    font-family: sans-serif;
+    color:antiquewhite;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: goldenrod; */
+    margin: 0 auto;
+    color: black;
+    font-weight: 900;
+    width: 1200px;
+    /* border: dashed 2px black; */
+    padding: 2rem;
+}
+
+.menù{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    color: antiquewhite;
+}
+
+
+header{
+    /* background-color: aquamarine; */
+    padding: 0.5rem;
+    background-image: url(../img/jumbo.png);
+
+}
+
+.button{
+    background: white;
+    padding: 1rem;
+    color:black;
+    border: none;
+    border-radius: 3rem;
+}
+
+
+.container{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.connection{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.square{
+    /* background-color: blueviolet; */
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: center; */
+    /* height: 15rem;
+    width: 15rem; */
+    color: antiquewhite;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 2rem;
+}
+
+
+.big-column {
+    display: flex;
+    background-color:pink;
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+.small-column {
+    display: flex;
+    background-color: cornflowerblue;
+    width: 20rem;
+    height: 25rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    background-color:grey;
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.c5{
+    display: flex;
+    justify-content: center;
+    background-color:grey;
+}
+
+.verde{
+    width: 15rem;
+    height: 15rem;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
